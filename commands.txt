@@ -1,0 +1,5 @@
+python solution.py all_comments ./input/dataset.jsonl ./output/result.jsonl
+
+python -m spacy download ru_core_news_sm
+
+pip freeze > requirements.txt
